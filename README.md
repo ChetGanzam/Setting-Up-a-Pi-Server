@@ -30,7 +30,7 @@ Now reboot the system:
 Now repeat Step 1. This time it should not return any errors. If error persists, it could be an SD Card problem, format, re-install Raspbian and try again.  
 If that doesn't work, the SD Card might be, although highly unlikely, corrupted. Try again with another SD Card.
 
-3. Enable SSH through Preferences> Raspberry Pi Configuration> Interfaces> SSH> Enabled. SSH is how we can remotely communicate with our Pi from your laptop/PC terminal. 
+3. Enable SSH through `Preferences> Raspberry Pi Configuration> Interfaces> SSH> Enabled`. SSH is how we can remotely communicate with our Pi from your laptop/PC terminal. 
 In the Pi terminal type:  
 `hostname -I`  
 Note down the IP address (Usually in the form of 192.xxx.xxx.xxx) of your Pi.   
